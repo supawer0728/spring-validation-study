@@ -1,0 +1,10 @@
+spring:
+  artemis:
+    mode: embedded
+  messages:
+    basename: messages/messages
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,mappings
